@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link of media query -->
+    <link rel="stylesheet" href="media-query.css" />
+    <!-- Link font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Menu resturant</title>
+  </head>
+  <body>
+    <section class="home">
+      <div class="container">
+        <div class="infos">
+          <h2>Welcome to <span>Zahir resturant</span></h2>
+          <p>we are <span>the best</span></p>
+          <a href="#menu">
+            <button class="menu-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+              check our menu
+            </button>
+          </a>
+        </div>
+        <img class="logo" src="logo-trans.png" alt="" />
+      </div>
+    </section>
+    <section id="menu">
+      <div class="menu-header">
+        <h2>our menu</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="btns-container">
+        <!-- <button type="button" class="filter-btn" data-id="all">all</button>
+        <button type="button" class="filter-btn" data-id="breakfast">
+          breakfast
+        </button>
+        <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+        <button type="button" class="filter-btn" data-id="dinner">
+          dinner
+        </button>
+        <button type="button" class="filter-btn" data-id="shakes">
+          shakes
+        </button> -->
+      </div>
+      <div class="menu-container">
+        <div class="card">
+          <img src="pizza.jpg" alt="pizza" class="card-img" />
+          <div class="card-title">
+            <h3>pizza</h3>
+            <button class="price">45 MAD</button>
+          </div>
+          <p class="description">
+            Classic pizza with a choice of toppings including cheese, tomato
+            sauce, and various meats or vegetables.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
